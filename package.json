@@ -1,0 +1,40 @@
+{
+  "name": "zukeeper",
+  "version": "1.0.3",
+  "description": "Dev Tools for Zustand, in Zustand",
+  "main": "./dist/esm/index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.esm.json & tsc --project tsconfig.cjs.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-Eevee-OSP/Zukeeper-NPM.git"
+  },
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js",
+    "default": "./dist/esm/index.js"
+  },
+  "keywords": [
+    "Zustand",
+    "devtools",
+    "dev tools",
+    "developer tools",
+    "time-travel",
+    "timetravel",
+    "time travel",
+    "state",
+    "state-management",
+    "state management",
+    "tree-view",
+    "tree view",
+    "state hierarchy"
+  ],
+  "author": "Chris Olmsted, George Vazquez, Santi Lorenzo, Stephen Lee",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
