@@ -1,6 +1,6 @@
 {
   "name": "zukeeper-test",
-  "version": "1.0.9",
+  "version": "1.1.1",
   "description": "Dev Tools for Zustand, in Zustand",
   "main": "./dist/esm/index.js",
   "scripts": {
