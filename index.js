@@ -1,4 +1,4 @@
-function zukeeper(storeConfig) {
+const zukeeper = (storeConfig) => {
   return (set, get) => {
     const store = storeConfig(set, get);
 
@@ -27,6 +27,10 @@ function zukeeper(storeConfig) {
     }
     return store;
   };
-}
+};
 
+// CJS
+module.exports = zukeeper;
+
+// ESM
 export default zukeeper;

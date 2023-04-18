@@ -1,6 +1,6 @@
 {
-  "name": "zukeeper",
-  "version": "1.0.3",
+  "name": "zukeeper-test",
+  "version": "1.0.9",
   "description": "Dev Tools for Zustand, in Zustand",
   "main": "./dist/esm/index.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "tree view",
     "state hierarchy"
   ],
-  "author": "Chris Olmsted, George Vazquez, Santi Lorenzo, Stephen Lee",
+  "author": "Chris Olmsted, Stephen Lee",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.0.4"

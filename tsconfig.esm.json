@@ -5,7 +5,7 @@
       "outDir": "dist/esm",
       "declarationDir": "dist/types"
   },
-  "files": ["src/index.js"],
+  "files": ["index.js"],
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }
